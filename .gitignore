@@ -1,0 +1,19 @@
+bin/
+bin-test/
+build/
+.DS_Store
+*.class
+informazioni.txt
+informazioni/
+utenti.txt
+*.tmp
+*.bak
+
+# solo i due pacchetti finali
+/dist/*
+!/dist/Rubrica.zip
+!/dist/Rubrica-sorgenti.zip
+
+# configurazioni locali
+.env
+.env.*
