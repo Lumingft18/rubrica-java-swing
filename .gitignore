@@ -3,7 +3,6 @@ bin-test/
 build/
 .DS_Store
 *.class
-informazioni.txt
 informazioni/
 utenti.txt
 *.tmp

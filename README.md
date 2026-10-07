@@ -8,7 +8,7 @@ java -jar Rubrica.jar
 
 Login: `admin` / `admin`
 
-I dati finiscono in `informazioni.txt`, nella stessa cartella del jar. La prima volta il file non c'è: la rubrica parte vuota e non dà errore.
+I dati finiscono in `informazioni.txt`, nella stessa cartella del jar. Il progetto include cinque contatti dimostrativi di Boris: René Ferretti, Duccio Patane, Arianna Dell'Arti, Corinna Negri e Stanis La Rochelle. Indirizzi, telefoni ed età sono inventati. Se mancano sia il file sia la cartella `informazioni/`, la rubrica parte vuota senza errori.
 
 ## Cosa fa
 
@@ -81,7 +81,7 @@ Per usare il database (lo zip è `dist/Rubrica.zip`; se l'hai ricevuto da solo, 
 
 Lo zip `Rubrica-sorgenti.zip` contiene il progetto Eclipse, i sorgenti, le librerie e i test.
 
-Lo zip `Rubrica.zip` contiene `Rubrica.jar`, `schema_database.sql`, `credenziali_database.properties` e questo file.
+Lo zip `Rubrica.zip` contiene `Rubrica.jar`, `schema_database.sql`, `credenziali_database.properties`, `informazioni.txt` con i contatti demo e questo file.
 
 Se il database non risponde, un avviso e si continua coi file.
 
@@ -91,7 +91,7 @@ La connessione usa SSL quando il server lo permette (MySQL 8 sì, di serie).
 
 1. `java -jar Rubrica.jar`
 2. entra con admin / admin
-3. Nuovo: René Ferretti, via Roma 1, 06123, 30. Salva. La riga c'è
+3. Nuovo: Mario Rossi, via Roma 1, 06123, 30. Salva. La riga c'è
 4. clic sulla riga, Modifica: i campi sono pieni. Annulla non deve cambiarli
 5. Modifica, cambia il telefono, Salva: in tabella c'è il numero nuovo
 6. Elimina senza selezione: esce l'errore

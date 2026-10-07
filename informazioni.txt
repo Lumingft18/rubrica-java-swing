@@ -1,0 +1,5 @@
+René;Ferretti;via del Set 1;00000101;50
+Duccio;Patane;via delle Luci 2;00000102;45
+Arianna;Dell'Arti;via della Produzione 3;00000103;35
+Corinna;Negri;via del Camerino 4;00000104;28
+Stanis;La Rochelle;via del Teatro 5;00000105;40
